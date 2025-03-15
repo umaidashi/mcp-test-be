@@ -39,7 +39,7 @@ bun run index.ts
 bun run dev
 ```
 
-サーバーは http://localhost:3000 で起動します。
+サーバーは http://localhost:8080 で起動します。
 
 ## API エンドポイント
 
@@ -53,8 +53,8 @@ bun run dev
 
 OpenAPIドキュメントは以下のURLで確認できます：
 
-- Swagger UI: http://localhost:3000/openapi
-- OpenAPI JSON: http://localhost:3000/openapi.json
+- Swagger UI: http://localhost:8080/openapi
+- OpenAPI JSON: http://localhost:8080/openapi.json
 
 ## ライセンス
 

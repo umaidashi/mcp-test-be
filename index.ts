@@ -24,7 +24,7 @@ app.get('/openapi.json', (c) => {
     },
     servers: [
       {
-        url: 'http://localhost:3000',
+        url: 'http://localhost:8080',
         description: 'ローカル開発サーバー',
       },
     ],
@@ -48,7 +48,7 @@ app.get('/', (c) => {
 });
 
 // サーバーを起動
-const port = Number.parseInt(process.env.PORT || '3000', 10);
+const port = Number.parseInt(process.env.PORT || '8080', 10);
 console.log(`サーバーを起動しています: http://localhost:${port}`);
 
 export default {
